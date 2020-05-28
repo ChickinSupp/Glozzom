@@ -121,6 +121,21 @@
           </div>
       </section>
 
+      <section id="home-heading" class="p-5">
+          <div class="dark-overlay">
+              <div class="row">
+                  <div class="col">
+                      <div class="container pt-5">
+                          <h1>Are You Ready To Get Started</h1>
+                          <p class="d-none d-md-block white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            A, dolorum eius numquam cumque commodi vel fugiat temporibus eaque 
+                            dolore cupiditate. Aspernatur asperiores alias at quod voluptate non.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
 
 
 
@@ -133,6 +148,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
       <script>
+
+        $("#header").text( (new Date).getFullYear() );
+
           $('carousel').carousel({
               interval: 6000,
               pause: 'hover'
