@@ -4,38 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='/assets/css/style.css'>
     <title>Glozzom</title>
 </head>
 <body>
 
-    <nav class="navbar nav-bar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
-            <a href="index.html" class="navbar-brand">Glozzom</a>
-            <button class="navbar-toggler" data-toggle='collapse' data-target='navbarCollapse'>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id='navbarCollapse' class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="service.html" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="blog.html" class="nav-link">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          <a href="index.html" class="navbar-brand">Glozzom</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+
+      <section id="showcase">
+          <div id="myCarousel" class="carousel slide" data-ride='carousel'>
+              <ol class="carousel-indicators">
+                  <li class="active" data-target='#myCarousel' data-slide-to='0'></li>
+                  <li  data-target='#myCarousel' data-slide-to='1'></li>
+                  <li  data-target='#myCarousel' data-slide-to='2'></li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="carousel-item carousel-img-1 active">
+                      <div class="container">
+                          <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                              <h1 class="display-3">Heading One</h1>
+                              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                  A, dolorum eius numquam cumque commodi vel fugiat temporibus eaque 
+                                  dolore cupiditate. Aspernatur asperiores alias at quod voluptate non iusto! Labore, dolores.
+                              </p>
+                              <a href="#" class="btn btn-danger btn-lg">Sign Up Now!</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="carousel-item carousel-img-2 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h1 class="display-3">Heading Two</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                A, dolorum eius numquam cumque commodi vel fugiat temporibus eaque 
+                                dolore cupiditate. Aspernatur asperiores alias at quod voluptate non iusto! Labore, dolores.
+                            </p>
+                            <a href="#" class="btn btn-danger btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-img-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3">Heading Three</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                A, dolorum eius numquam cumque commodi vel fugiat temporibus eaque 
+                                dolore cupiditate. Aspernatur asperiores alias at quod voluptate non iusto! Labore, dolores.
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg">Learn Even More</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <a href="#myCarousel" class="carousel-control-prev" data-slide='prev'>
+                  <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a href="#myCarousel" class="carousel-control-next" data-slide='next'>
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-prev" data-slide='prev'>
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+          </div>
+      </section>
+    
 
 
 
