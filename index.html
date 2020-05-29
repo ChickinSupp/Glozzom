@@ -153,7 +153,33 @@
             </div>
       </section>
 
+      <section id="video-play">
+          <div class="dark-overlay">
+              <div class="row">
+                  <div class="col">
+                    <div class="container p-5">
+                      <a href="#" class="video" data-video="https://www.youtube.com/watch?v=M_PwLvFDB2Y" data-toggle='modal' data-target='#videoModal'>
+                        <i class="fas fa-play fa-3x"></i>
+                    </a>
+                    <h1>See What We Do</h1>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 
+      <div class="modal fade" id="videoModal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-body">
+                      <button class="close" data-dismiss='modal'>
+                          <span>&times;</span>
+                      </button>
+                      <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
 
@@ -163,16 +189,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-      <script>
-
-        $("#header").text( (new Date).getFullYear() );
-
-          $('carousel').carousel({
-              interval: 6000,
-              pause: 'hover'
-          })
-      </script>
+    <script src="/assets/js/script.js"></script>
 
 </body>
 </html>
