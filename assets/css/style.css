@@ -70,3 +70,18 @@ background-size: cover;
 #video-play a {
     color: #fff
 }
+
+/************** PAGE HEADER **************/
+#page-header {
+    height: 200px;
+    background: url('/assets/img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+}
+
+/************** PAGE HEADER **************/
+.about-img {
+    margin-top: -50px;
+}
